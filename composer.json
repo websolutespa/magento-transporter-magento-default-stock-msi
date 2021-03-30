@@ -1,0 +1,35 @@
+{
+  "name": "websolutespa/magento-transporter-magento-default-stock-msi",
+  "description": "Websolute Transporter Magento Default Stock Msi module",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-inventory": "*",
+    "websolutespa/magento-transporter-base": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Danilo Argentiero",
+      "email": "argentiero.danilo@gmail.com",
+      "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+      "role": "Software Architect"
+    },
+    {
+      "name": "Riccardo Ugolini",
+      "email": "riccardo.ugolini@gmail.com",
+      "homepage": "https://www.linkedin.com/in/riccardougolini/",
+      "role": "Software Architect"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Websolute\\TransporterMagentoDefaultStock\\": ""
+    }
+  }
+}
